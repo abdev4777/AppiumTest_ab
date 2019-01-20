@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Amazon Find A Product" duration-ms="54194" started-at="2018-12-11T19:27:52Z" finished-at="2018-12-11T19:28:47Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="54194" started-at="2018-12-11T19:27:52Z" finished-at="2018-12-11T19:28:47Z">
+      <class name="in.amazon.mshop.AmazonMobileApp.FindAProduct_Test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:in.amazon.mshop.AmazonMobileApp.FindAProduct_Test@45dd4eda]" name="setup" is-config="true" duration-ms="38208" started-at="2018-12-11T19:27:53Z" finished-at="2018-12-11T19:28:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:in.amazon.mshop.AmazonMobileApp.FindAProduct_Test@45dd4eda]" name="loginTest" duration-ms="2198" started-at="2018-12-11T19:28:31Z" finished-at="2018-12-11T19:28:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:in.amazon.mshop.AmazonMobileApp.FindAProduct_Test@45dd4eda]" name="tearDown" is-config="true" duration-ms="6" started-at="2018-12-11T19:28:36Z" finished-at="2018-12-11T19:28:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=FindAProduct_Test.loginTest()[pri:1, instance:in.amazon.mshop.AmazonMobileApp.FindAProduct_Test@45dd4eda] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="homePageTest()[pri:2, instance:in.amazon.mshop.AmazonMobileApp.FindAProduct_Test@45dd4eda]" name="homePageTest" duration-ms="2237" started-at="2018-12-11T19:28:36Z" finished-at="2018-12-11T19:28:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:in.amazon.mshop.AmazonMobileApp.FindAProduct_Test@45dd4eda]" name="tearDown" is-config="true" duration-ms="6" started-at="2018-12-11T19:28:39Z" finished-at="2018-12-11T19:28:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homePageTest status=SUCCESS method=FindAProduct_Test.homePageTest()[pri:2, instance:in.amazon.mshop.AmazonMobileApp.FindAProduct_Test@45dd4eda] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="checkAvailability()[pri:3, instance:in.amazon.mshop.AmazonMobileApp.FindAProduct_Test@45dd4eda]" name="checkAvailability" duration-ms="7595" started-at="2018-12-11T19:28:39Z" finished-at="2018-12-11T19:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAvailability -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:in.amazon.mshop.AmazonMobileApp.FindAProduct_Test@45dd4eda]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-12-11T19:28:46Z" finished-at="2018-12-11T19:28:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkAvailability status=SUCCESS method=FindAProduct_Test.checkAvailability()[pri:3, instance:in.amazon.mshop.AmazonMobileApp.FindAProduct_Test@45dd4eda] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- in.amazon.mshop.AmazonMobileApp.FindAProduct_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Amazon Find A Product -->
+</testng-results>
